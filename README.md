@@ -82,7 +82,7 @@ model = joblib.load('loan_approval_model.pkl')
 
 
 
-**##2 Make Prediction**
+#2 Make Prediction
 
 input_data = [[total_income, loan_amount, credit_history, ..., feature_n]]
 prediction = model.predict(input_data)
